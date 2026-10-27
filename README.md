@@ -1,5 +1,7 @@
 # RIP vs OSPF Convergence Visualizer
 
+**Live demo:** https://ripvsospf.netlify.app/
+
 An interactive web app that shows how **RIP** (distance-vector, Bellman-Ford) and **OSPF** (link-state, Dijkstra) react when a network link fails. You can step through convergence one update at a time and watch problems like **count-to-infinity** and **routing loops** appear, then see how split horizon, poison reverse and OSPF avoid them.
 
 ## Features
